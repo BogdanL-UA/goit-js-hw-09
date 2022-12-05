@@ -85,7 +85,7 @@ const options = {
   },
 };
 
-flatpickr('#datetime-picker', options);
+const fp = flatpickr('#datetime-picker', options);
 
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
